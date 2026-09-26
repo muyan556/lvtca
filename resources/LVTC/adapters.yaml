@@ -1,0 +1,17 @@
+# resources/LVTC/adapters.yaml
+# 六安职业技术学院 —— 拾光课程表适配器清单
+# 类别 BACHELOR_AND_ASSOCIATE：本科/专科教务系统
+adapters:
+  - adapter_id: "LVTC_01"
+    adapter_name: "六安职业技术学院教务"
+    category: "BACHELOR_AND_ASSOCIATE"
+    asset_js_path: "lvtc_01.js"
+    import_url: "https://webport.lvtc.edu.cn:8443/"
+    maintainer: "shiguang-contributor"
+    description: |
+      六安职业技术学院教务（强智 jsxsd）课表适配。
+      使用步骤：点开本适配器 → 在弹出的页面中登录学校统一信息门户
+      （工号/学号 + 密码）→ 进入「教务系统」并打开「个人课表查询」页
+      → 点击「执行导入」。导入后请按需设置本学期开学日期。
+      说明：教务系统位于校园内网（192.168.21.95），须经学校 WebVPN
+      统一门户访问；未登录或未进入课表页时导入会提示失败。
